@@ -4,24 +4,23 @@
 		  <el-button slot="append" icon="search"></el-button>
 		</el-input>
 		<ul class="frequency">
-			<li>
-				<a href="#">关键词1</a>
-			</li>
-			<li>
-				<a href="#">关键词2</a>
-			</li>
-			<li>
-				<a href="#">关键词3</a>
-			</li>
-			<li>
-				<a href="#">关键词4</a>
+			<li v-for="item in items">
+				<a href="#">{{ item.keyword }}</a>
 			</li>
 		</ul>
 	</div>
 </template>
 <script type="text/javascript">
 	export default {
-
+		data: function() {
+			return {
+				items: [
+					{ keyword: '关键词1'},
+					{ keyword: '关键词2'},
+					{ keyword: '关键词3'}
+				]
+			}
+		}
 	}
 </script>
 <style type="text/css">
