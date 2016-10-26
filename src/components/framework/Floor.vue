@@ -1,11 +1,15 @@
 <template>
-	<floor-info />
+	<div>
+		<floor-info />
+		<floor-footer />
+	</div>
 </template>
 <script type="text/javascript">
 	import FloorInfo from '../collection/FloorInfo'
+	import FloorFooter from '../collection/FloorFooter'
 	export default {
 		components: {
-			FloorInfo
+			FloorInfo, FloorFooter
 		}
 	}
 </script>

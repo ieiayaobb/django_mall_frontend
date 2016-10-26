@@ -1,20 +1,22 @@
 <template>
-  <div id="app">
-    <dashboard />
-    <banner />
-    <control />
-    <showcase />
-    <recommend />
-    <sale />
-    <floor />
-    <floor />
-    <floor />
-    <floor />
-    <floor />
-    <selected />
-    <feature />
-    <term />
-    <copyright />
+  <div>
+    <div id="app">
+      <dashboard />
+      <banner />
+      <control />
+      <showcase />
+      <recommend />
+      <sale />
+      <floor />
+      <floor />
+      <floor />
+      <floor />
+      <floor />
+      <selected />
+      <feature />
+      <term />
+      <copyright />
+    </div>
   </div>
 </template>
 
@@ -41,6 +43,7 @@ export default {
 
 <style>
 #app {
-  
+  width: 1210px;
+  margin: 0 auto;
 }
 </style>

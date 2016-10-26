@@ -3,7 +3,7 @@
 		<el-dropdown>
 		  <el-badge :value="3" class="item">
 			  <el-button type="primary">
-			    购物车
+			    我的购物车
 			    <i class="el-icon-caret-bottom el-icon-right"></i>
 			  </el-button>
 			</el-badge>
