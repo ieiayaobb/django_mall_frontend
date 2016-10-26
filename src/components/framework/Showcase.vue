@@ -1,20 +1,28 @@
 <template>
 	<div>
-		<side-menu />
-		<navigator />
-		<carousel />
-		<shortcutPanel />
+		<el-row>
+		  <el-col :span="4">
+		  	<category-menu />
+		  </el-col>
+		  <el-col :span="15">
+		  	<navigator />
+		  	<carousel />
+		  </el-col>
+		  <el-col :span="5">
+		  	<extract-info />
+		  </el-col>
+		</el-row>
 	</div>
 </template>
 <script type="text/javascript">
-	import SideMenu from '../collection/SideMenu'
+	import CategoryMenu from '../collection/CategoryMenu'
 	import Navigator from '../collection/Navigator'
 	import Carousel from '../collection/Carousel'
-	import ShortcutPanel from '../collection/ShortcutPanel'
+	import ExtractInfo from '../collection/ExtractInfo'
 
 	export default {
 		components: {
-			SideMenu, Navigator, Carousel, ShortcutPanel
+			CategoryMenu, Navigator, Carousel, ExtractInfo
 		}
 	}
 </script>

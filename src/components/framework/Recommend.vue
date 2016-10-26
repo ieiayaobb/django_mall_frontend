@@ -3,9 +3,26 @@
 		<div class="recommend-title">
 			<h4>猜你喜欢</h4>
 		</div>
-		<div>
-			<standard-item />
-		</div>
+		<el-row>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		  <el-col :span="4">
+		  	<standard-item />
+		  </el-col>
+		</el-row>
 	</div>
 </template>
 <script type="text/javascript">
@@ -17,4 +34,8 @@
 		}
 	}
 </script>
-<style type="text/css"></style>
+<style type="text/css">
+	.recommend-title {
+		font-size: 24px;
+	}
+</style>

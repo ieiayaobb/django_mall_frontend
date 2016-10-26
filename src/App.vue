@@ -5,13 +5,11 @@
       <banner />
       <control />
       <showcase />
-      <recommend />
       <sale />
-      <floor />
-      <floor />
-      <floor />
-      <floor />
-      <floor />
+      <recommend />
+      <floor class="floor" type="left-small" />
+      <floor class="floor" type="left-standard" />
+      <floor class="floor" type="center-standard" />
       <selected />
       <feature />
       <term />
@@ -26,7 +24,7 @@ import Banner from './components/framework/Banner'
 import Control from './components/framework/Control'
 import Showcase from './components/framework/Showcase'
 import Recommend from './components/framework/Recommend'
-import Sale from './components/framework/Recommend'
+import Sale from './components/framework/Sale'
 import Floor from './components/framework/Floor'
 import Selected from './components/framework/Selected'
 import Feature from './components/framework/Feature'
@@ -45,5 +43,9 @@ export default {
 #app {
   width: 1210px;
   margin: 0 auto;
+}
+.floor {
+  float: left;
+  margin:20px 0;
 }
 </style>

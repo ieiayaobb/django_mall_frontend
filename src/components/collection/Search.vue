@@ -26,7 +26,7 @@
 <style type="text/css">
 	.search {
 		display: inline-block;
-		margin: 10px;
+		margin: 10px 80px;
 	}
 
 	.frequency>li{
