@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <Dashboard />
-    <Banner />
-    <Control />
-    <Showcase />
-    <Recommend />
-    <Sale />
-    <Floor />
-    <Floor />
-    <Floor />
-    <Floor />
-    <Floor />
-    <Selected />
-    <Feature />
-    <Term />
-    <Copyright />
+    <dashboard />
+    <banner />
+    <control />
+    <showcase />
+    <recommend />
+    <sale />
+    <floor />
+    <floor />
+    <floor />
+    <floor />
+    <floor />
+    <selected />
+    <feature />
+    <term />
+    <copyright />
   </div>
 </template>
 
